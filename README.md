@@ -11,3 +11,21 @@
 7. Formatting tags : b, i, u
 
 ---
+
+06 Jan 2024
+
+1. list => ul, ol
+2. table
+3. image links
+4. style attribute
+5. line break
+6. forms in html
+   a. input --> text, password, email, file/ upload, reset, color, date, month, week, datetime, number, submit
+   b. checkbox
+   c. radio
+   d. select/ dropdown
+   e. textarea
+
+---
+
+f. datalist
