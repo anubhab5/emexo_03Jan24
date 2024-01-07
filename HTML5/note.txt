@@ -1,0 +1,8 @@
+     <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+      </datalist>
+
+      [0-9]{10}
