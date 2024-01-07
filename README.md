@@ -28,4 +28,9 @@
 
 ---
 
-f. datalist
+07 Jan 2024
+
+1. datalist
+2. date - min, max
+3. form attributes: autocomplete, pattern
+4. Semantic Elements - header, footer, article, aside, nav, section, time, progress, figure, figcaption, summary
