@@ -1,0 +1,34 @@
+/* p {
+  color: green;
+  background-color: yellow;
+} */
+
+/* id selector */
+#country {
+  color: red;
+  background: orange;
+}
+
+/* class selector */
+.intro {
+  color: blue;
+  background-color: cyan;
+}
+
+/* 
+  element selector
+  here we are selecting all the paragraph elements
+
+*/
+p {
+  color: red;
+  background-color: yellow;
+}
+
+/* 
+  Selecting the span element
+*/
+span {
+  color: red;
+  background-color: yellow;
+}
