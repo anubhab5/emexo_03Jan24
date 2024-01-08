@@ -36,3 +36,15 @@
 4. Semantic Elements - header, footer, article, aside, nav, section, time, progress, figure, figcaption, summary
 
 ---
+
+08 Jan 2024
+
+1. Video tag
+2. audio tag
+3. iframe
+
+# CSS3
+
+1. Basic of CSS
+2. Different ways of adding styles
+3. Selectors: id, class, element
