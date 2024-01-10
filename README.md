@@ -48,3 +48,30 @@
 1. Basic of CSS
 2. Different ways of adding styles
 3. Selectors: id, class, element
+
+---
+
+10 Jan 2024
+
+1. Border, border-radius
+2. Padding
+3. Margin
+4. Outline
+5. Inspect CSS
+6. Display : inline, block, inline-block
+7. Text Align
+
+---
+
+12 Jan 2024
+
+1. Fonts
+2. Float
+3. opacity
+4. Position
+5. Styling: Table, list, link
+6. Text Effects, text-shadow, box-shadow, text-overflow
+7. word-wrap
+8. word-break
+9. Transforms - 2d 3d
+10. Transitions

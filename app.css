@@ -4,31 +4,111 @@
 } */
 
 /* id selector */
-#country {
+/* #country {
   color: red;
   background: orange;
-}
+} */
 
 /* class selector */
-.intro {
+/* .intro {
   color: blue;
   background-color: cyan;
-}
+} */
 
 /* 
   element selector
   here we are selecting all the paragraph elements
 
 */
-p {
+/* p {
   color: red;
   background-color: yellow;
-}
+} */
 
 /* 
   Selecting the span element
 */
-span {
+/* span {
   color: red;
   background-color: yellow;
+} */
+
+/* p {
+  border: 10px solid transparent;
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  color: darkviolet;
+} */
+
+/* #border {
+  border-image: url("border.png") 100 / 20px / 10px round;
+} */
+
+.country {
+  /* box-sizing: border-box; */
+  /* border: red 2px solid;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  outline: solid 4px black; */
+  /* padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 40px; */
+  /* border-left: solid 2px red;
+  border-top: solid 2px green;
+  border-right: solid 2px black;
+  border-bottom: solid 2px rgb(208, 218, 20); */
 }
+/* 
+.country1 {
+  border: rgb(194, 66, 66) 2px solid;
+  padding: 10px 20px 30px 40px;
+  margin: 60px;
+} */
+
+.country1 {
+  /* text-align: left; */
+  color: blue;
+  border: solid 2px red;
+  display: inline;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-top: 200px;
+  /* margin-bottom: 100px;
+  padding-bottom: 100px; */
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
+}
+
+/* make a content as block */
+/* .make-block {
+  display: block;
+  margin-top: 100px;
+  border: solid 2px red;
+} */
+
+/* img {
+  border: solid 4px rgb(40, 35, 35);
+} */
+
+/* p {
+  color: red;
+  border: solid 2px red;
+  margin-top: 30px;
+} */
+
+/* inline */
+/* .make-inline {
+  display: inline;
+} */
+
+/* inline block */
+/* .make-inline-block {
+  display: inline-block;
+  margin-top: 100px;
+  border: solid 2px red;
+  border-radius: 10px;
+  padding: 6px;
+} */
