@@ -112,3 +112,77 @@
   border-radius: 10px;
   padding: 6px;
 } */
+
+/* 
+Universal Selector: To select every element
+ */
+/* * {
+  color: red;
+} */
+/* 
+section {
+  width: 750px;
+  margin: 0 auto;
+  box-shadow: 10px 4px 10px 4px lightgray;
+  padding: 10px;
+}
+
+h2 {
+  text-shadow: 4px 4px 4px blue;
+  opacity: 0.1;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  float: right;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+} */
+
+/* 
+position:- 
+relative, absolute, sticky, fixed, static
+ */
+
+/* img {
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+} */
+
+/* section {
+  position: relative;
+} */
+section {
+  /* border: solid 2px black; */
+  /* position: relative; */
+}
+/* 
+p {
+  border: solid 1px red;
+}
+
+img {
+  position: absolute;
+  top: 0px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+} */
+
+/* h1 {
+  position: fixed;
+} */
+
+/* h1 {
+  position: sticky;
+  top: 100px;
+} */

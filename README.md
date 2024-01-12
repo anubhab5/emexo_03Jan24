@@ -65,13 +65,18 @@
 
 12 Jan 2024
 
-1. Fonts
-2. Float
-3. opacity
-4. Position
-5. Styling: Table, list, link
-6. Text Effects, text-shadow, box-shadow, text-overflow
-7. word-wrap
-8. word-break
-9. Transforms - 2d 3d
-10. Transitions
+1. Universal selector
+2. Fonts
+3. Float
+4. opacity
+5. Position
+6. Text Effects, text-shadow, box-shadow
+
+---
+
+1. Styling: Table, list, link
+2. Text-overflow
+3. word-wrap
+4. word-break
+5. Transforms - 2d 3d
+6. Transitions
