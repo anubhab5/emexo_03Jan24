@@ -186,3 +186,81 @@ body {
   position: sticky;
   top: 100px;
 } */
+
+ul {
+  /* list-style: decimal-leading-zero; */
+}
+/* 
+.style-table {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+.style-table tr {
+  border-collapse: collapse;
+  border: solid 1px black;
+}
+.style-table th {
+  background: green;
+}
+
+.style-table td {
+  background: rgb(217, 215, 215);
+  border-collapse: collapse;
+} */
+
+.container {
+  /* font-size: 20px; */
+  /* border: solid 4px red;
+  width: 90vw;
+  height: 90vh; */
+}
+
+.container {
+  border: solid 1px blue;
+  width: 110px;
+  height: 20px;
+  /*  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: red;
+
+  transition-property: "background-color";
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+div:hover {
+  background: green;
+} */
+
+.text-transform {
+  /* text-transform: capitalize; */
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+}
+
+/* .container p {
+  border: solid 2px black;
+  width: 50%;
+} */
+/* 
+.container p {
+  font-size: 2em;
+}
+
+.container span {
+  font-size: 3rem;
+}
+
+html,
+body {
+  font-size: 16px;
+} */
