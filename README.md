@@ -76,9 +76,14 @@
 
 13 Jan 2024
 
-1. Styling: Table, List, Link (10)
-2. Text-overflow (5)
-3. Word-break (5)
-4. Dimension Units (15)
-5. Transforms - 2d (10)
-6. Transitions (10)
+1. Styling: Table, List, Link
+2. Text-overflow
+3. Dimension Units
+4. Transitions (10)
+
+--
+
+17 Jan 2024
+
+5. Word-break (5)
+6. Transforms - 2d
