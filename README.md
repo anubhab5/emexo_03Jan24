@@ -103,8 +103,12 @@
 6. Comparison using if, else, else-if
 7. Debugging JS application
 8. Array
-9. array methods - push, pop
+9. Array methods - push, pop
 
 ---
 
-8. Loops
+21 Jan 2024
+
+1. Array methods (contd) - shift, unshift, slice, splice
+2. Loops in JS (for, while, do-while)
+3.
