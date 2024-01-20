@@ -88,3 +88,23 @@
 1. word-break, word-wrap
 2. Transforms - 2d
 3. Advanced selectors
+
+---
+
+# Javascript
+
+20 Jan 2024
+
+1. Introduction and history of JS
+2. Internal vs External Script
+3. Data types in JS
+4. Variable declaration
+5. Commenting the code : Single line, multi line
+6. Comparison using if, else, else-if
+7. Debugging JS application
+8. Array
+9. array methods - push, pop
+
+---
+
+8. Loops
