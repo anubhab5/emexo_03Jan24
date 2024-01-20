@@ -264,3 +264,73 @@ html,
 body {
   font-size: 16px;
 } */
+/* 
+p {
+  width: 120px;
+  border: 1px solid #000000;
+}
+
+p.c {
+  word-break: break-all;
+}
+
+p.d {
+  word-wrap: break-word;
+} */
+
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: green;
+  color: white;
+  transform: rotate(-20deg);
+  /* transition-property: "transform";
+  transition-duration: 2s;
+  transition-timing-function: linear; */
+}
+
+/* div.a:hover {
+  transform: rotate(90deg);
+} */
+/* 
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: green;
+  color: white;
+  transform: skewX(15deg);
+}
+
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: green;
+  color: white;
+  transform: scale(1.5);
+} */
+/* 
+div > p {
+  color: red;
+} */
+
+/* div ~ p {
+  color: red;
+} */
+
+/* .adv-selector + p {
+  color: red;
+} */
+
+/* pseudo-element */
+/* .pseudo-element::selection {
+  color: red;
+  background: yellow;
+  font-size: 20px;
+} */
+/* 
+.pseudo-element::after {
+  content: "tata";
+} */
+div p:nth-last-child(even) {
+  color: red;
+}
