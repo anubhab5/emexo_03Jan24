@@ -277,18 +277,18 @@ console.log(myTotalScore);
 /**
  * Objects in JS
  */
-const obj = {
-   studName: "Ram",
-   roll: 22,
-   isPassed: true,
-   address: {
-      flatNo: 2,
-      street: "Neeladri Road",
-      dummy: {
-         test: "test"
-      }
-   }
-};
+// const obj = {
+//    studName: "Ram",
+//    roll: 22,
+//    isPassed: true,
+//    address: {
+//       flatNo: 2,
+//       street: "Neeladri Road",
+//       dummy: {
+//          test: "test"
+//       }
+//    }
+// };
 
 // console.log(obj);
 // console.log(obj.address.dummy.test);
@@ -299,7 +299,11 @@ const obj = {
 
 /**
  * use strict
+ * The "use strict" directive was new in ECMAScript version 5.
+   It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+   The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+   With strict mode, you can not, for example, use undeclared variables.
  */
-x = 3.14;
-console.log(x)
+// x = 3.14;
+// console.log(x)
 // -------------------------------------------------------------------

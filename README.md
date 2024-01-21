@@ -118,25 +118,25 @@
 
 22 Jan 2024
 
-1. use strict
-2. Loops in JS (for, while, do-while)
-3. Pass by value VS Pass by reference
-4. Function in JS
-5. Arrow function
-6. Scope in JS
-7. Hoisting
+1. use strict (2)
+2. Loops in JS (for, while, do-while) (15)
+3. Pass by value VS Pass by reference (10)
+4. Function in JS (10)
+5. Arrow function (8)
+6. Hoisting (15)
+7. Scope in JS (20)
 
 ---
 
 24 Jan 2024
 
-8. Closure
-9. Events in JS
-10. this
-11. call apply bind
-12. DOM manipulation
-13. Form handling
-14. Date
-15. Error Handling
+1. Closure
+2. Events in JS
+3. this
+4. call apply bind
+5. DOM manipulation
+6. Form handling
+7. Date
+8. Error Handling
 
 ---
