@@ -109,6 +109,34 @@
 
 21 Jan 2024
 
-1. Array methods (contd) - shift, unshift, slice, splice
+1. Array methods (contd) :: shift, unshift, slice, splice, length, concat, join
+2. String Methods :: length, toUpperCase, toLowerCase, concat, slice, substring, split
+3. == vs ===
+4. Objects in JS
+
+---
+
+22 Jan 2024
+
+1. use strict
 2. Loops in JS (for, while, do-while)
-3.
+3. Pass by value VS Pass by reference
+4. Function in JS
+5. Arrow function
+6. Scope in JS
+7. Hoisting
+
+---
+
+24 Jan 2024
+
+8. Closure
+9. Events in JS
+10. this
+11. call apply bind
+12. DOM manipulation
+13. Form handling
+14. Date
+15. Error Handling
+
+---
