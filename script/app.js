@@ -7,7 +7,6 @@
  * var, let, const used to declare variables in JS
  * const is used for storing constant values
  */
-
 "use strict";
 
 /**
@@ -304,6 +303,148 @@ console.log(myTotalScore);
    The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
    With strict mode, you can not, for example, use undeclared variables.
  */
+// var myName = '';
 // x = 3.14;
 // console.log(x)
 // -------------------------------------------------------------------
+
+/**
+ * Loops
+ * for loop
+ */
+
+// for (let i = 0; i < 5; i++) {
+//    console.log(i);
+// }
+
+/**
+ * while loop
+ */
+
+// let i = 0;
+// while (i < 5) {
+//    console.log(i);
+//    i++;
+// }
+
+
+/**
+ * do-while
+ */
+// let i = 3;
+// do {
+//    console.log(i);
+//    i++;
+// } while (i < 5);
+
+/**
+ *
+ */
+
+/**
+ * scope in JS
+ * var has a function scope
+ * let, const has block scope
+ */
+
+// let roll1 = 10;
+// let roll2 = roll1;
+
+// console.log(roll1);
+// console.log(roll2);
+
+// roll2 = 21;
+
+// console.log(roll1);
+// console.log(roll2);
+
+// let arr1 = ['a', 'b', 'c', 'd'];
+// let arr2 = arr1;
+
+// console.log(arr1);
+// console.log(arr2);
+
+// arr2[2] = 'x';
+
+// console.log(arr1);
+// console.log(arr2);
+
+// let obj1 = {
+//    myName: "Ram"
+// };
+
+// let obj2 = obj1;
+
+// console.log(obj1);
+// console.log(obj2);
+
+// obj2.myName = "Shyam";
+
+// console.log(obj1);
+// console.log(obj2);
+
+/**
+ * Function Declaration
+ */
+// function sayHiFromUser(userName, state) {
+//    // console.log('hello my name is', userName, "I am from ", state);
+//    return `hello my name is ${userName}. I am from ${state}`;
+// }
+
+// const user1 = sayHiFromUser('Sanjay', 'TN');
+// console.log(user1);
+// console.log(sayHiFromUser('Kiran', 'KA'));
+// console.log(sayHiFromUser('Devil', 'KA'));
+// console.log(sayHiFromUser('Soumya', 'KA'));
+// console.log(sayHiFromUser('Bhuvi', 'TN'));
+
+/**
+ * Anonymous Function
+ */
+
+// const sayMyName = function (accept) {
+//    console.log(`Say hello ${accept}`);
+// };
+
+// sayMyName('test');
+
+/**
+ * Fat arrow function (ES6 feature)
+ */
+// const sayMyName1 = (accept) => {
+//    console.log(`Say hello ${accept}`);
+// };
+
+// sayMyName1('test123');
+// {
+//    console.log(myNumber)
+// }
+
+// function test() {
+//    let myNumber = 23;
+// }
+
+// function checkEvenOdd() {
+//    if (myNumber % 2 === 0) {
+//       console.log("Even");
+//    } else {
+//       console.log("Odd");
+//    }
+// }
+
+// checkEvenOdd();
+
+/**
+ * Hoisting
+ */
+console.log(myName);
+var myName = 'Ram';
+
+// let myAge = 22;
+// console.log(myAge);
+
+function simpleFn() {
+   console.log('say hii');
+}
+
+// simpleFn();
