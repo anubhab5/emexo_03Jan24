@@ -131,18 +131,18 @@
 
 1. Hoisting
 2. More about objects
-3. Closure
-4. this
-5. call apply bind
-6. Date
+3. this
+4. call apply bind
 
 ---
 
 26 Jan 2024
 
-1. DOM manipulation
-2. Events in JS
-3. Form handling
-4. Error Handling
+1. Closure
+2. Date
+3. DOM manipulation
+4. Events in JS
+5. Form handling
+6. Error Handling
 
 ---

@@ -436,15 +436,134 @@ console.log(myTotalScore);
 
 /**
  * Hoisting
+ * Hoisting is a concept or behavior in JavaScript where the 
+ * declaration of a function, variable
+ * goes to the top of the scope they were defined in.
  */
-console.log(myName);
-var myName = 'Ram';
+// console.log(myName);
 
+// var myName = 'Ram';
+
+// console.log(myName);
 // let myAge = 22;
 // console.log(myAge);
 
-function simpleFn() {
-   console.log('say hii');
-}
-
 // simpleFn();
+
+// Function Declaration
+// function simpleFn() {
+//    console.log('say hii');
+// }
+
+// let myAge = 21;
+// console.log(myAge);
+
+// var sayMyName = function () {
+//    console.log("hello");
+// };
+
+// sayMyName();
+
+/**
+ * this keyword in JS
+ * Global Context:
+
+   When used outside of any function or object, this refers to the global object, 
+   which is window in a browser environment or global in Node.js.
+
+   When used inside a function that is not a method of an object, this also refers to the 
+   global object.
+   In strict mode ('use strict';), if a function is not a method of an object, this is
+   undefined.
+
+   Method Context:
+   When used inside a method (a function that is a property of an object), 
+   this refers to the object that the method is called on.
+
+   Event Handlers:
+   When used as an event handler, this refers to the DOM element that triggered the event.
+ */
+
+// var my_obj = {
+//    myName: "abc",
+//    myAge: 21,
+//    sayMyName: function () {
+//       // console.log(this);
+//       console.log(this.myName);
+//    },
+//    sayMyAge: () => {
+//       console.log(this);
+//    }
+// };
+// my_obj.sayMyName();
+// my_obj.sayMyName();
+// my_obj.sayMyAge();
+// console.log(window);
+// console.log(this)
+
+// function sayMyNameV2() {
+//    console.log(this);
+// }
+
+// sayMyNameV2();
+
+// const userProperties = {
+//    sayMyName: function (roll, rank) {
+//       console.log(`my Name is ${this.myName} 
+//       and age is ${this.myAge}, Roll is ${roll} ${rank}`);
+//    }
+// }
+
+// const user1 = {
+//    myName: "Tom",
+//    myAge: 21
+// };
+
+// const user2 = {
+//    myName: "Mary",
+//    myAge: 30,
+// };
+
+/**
+ * The call() method calls the function directly and sets this to the
+ *  first argument passed to the call method and if any other sequences of 
+ * arguments preceding the first argument are passed to the call method then 
+ * they are passed as an argument to the function.
+ */
+// userProperties.sayMyName.call(user1, 1, 'Gen');
+// userProperties.sayMyName.call(user2, 5, 'Maj');
+
+/**
+ * The apply() method calls the function directly and sets this to the first 
+ * argument passed to the apply method and if any other arguments provided as an 
+ * array are passed to the call method then they are passed as an argument to the function.
+ */
+// userProperties.sayMyName.apply(user1, [1, 'Gen']);
+// userProperties.sayMyName.apply(user2, [5, 'Maj']);
+/**
+ * 
+ * The bind() method creates a new function and when that new function is called it 
+ * set this keyword to the first argument which is passed to the bind method, 
+ * and if any other sequences of arguments preceding the first argument are 
+ * passed to the bind method then they are passed as an argument to the new function 
+ * when the new function is called.
+ */
+// userProperties.sayMyName.bind(user1, 1, 'Gen')()
+// const returnedValue = userProperties.sayMyName.bind(user1, 1, 'Gen');
+
+// returnedValue();
+
+/**
+ * Closure
+ * 
+ */
+function outerFunction() {
+   let myName = 'A';
+   return function innerFunction() {
+      console.log("This is test");
+   }
+
+}
+const innerFn = outerFunction()
+innerFn();
+// console.log(outerFunction())
