@@ -97,12 +97,12 @@
 
 1. Introduction and history of JS
 2. Internal vs External Script
-3. Data types in JS
-4. Variable declaration
+3. Data types in JS (Primitive, non-primitive)
+4. Variable declaration (var let const)
 5. Commenting the code : Single line, multi line
 6. Comparison using if, else, else-if
 7. Debugging JS application
-8. Array
+8. Array and accessing array elements
 9. Array methods - push, pop
 
 ---
@@ -113,6 +113,7 @@
 2. String Methods :: length, toUpperCase, toLowerCase, concat, slice, substring, split
 3. == vs ===
 4. Objects in JS
+5. Accessing objects in JS using dot notation
 
 ---
 
@@ -131,7 +132,7 @@
 
 1. Hoisting
 2. More about objects
-3. this
+3. this keyword
 4. call apply bind
 
 ---
@@ -146,3 +147,7 @@
 6. Error Handling
 
 ---
+
+# Angular
+
+27 Jan 2024
