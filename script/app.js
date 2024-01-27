@@ -295,6 +295,10 @@ console.log(myTotalScore);
 
 
 // -------------------------------------------------------------------
+// DAY:3 - 22 Jan 2024
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
 
 /**
  * use strict
@@ -434,9 +438,15 @@ console.log(myTotalScore);
 
 // checkEvenOdd();
 
+
+
+// -------------------------------------------------------------------
+// DAY:4 - 24 Jan 2024
+// -------------------------------------------------------------------
+
 /**
  * Hoisting
- * Hoisting is a concept or behavior in JavaScript where the 
+ * Hoisting is a concept or behavior in JavaScript where the
  * declaration of a function, variable
  * goes to the top of the scope they were defined in.
  */
@@ -468,16 +478,16 @@ console.log(myTotalScore);
  * this keyword in JS
  * Global Context:
 
-   When used outside of any function or object, this refers to the global object, 
+   When used outside of any function or object, this refers to the global object,
    which is window in a browser environment or global in Node.js.
 
-   When used inside a function that is not a method of an object, this also refers to the 
+   When used inside a function that is not a method of an object, this also refers to the
    global object.
    In strict mode ('use strict';), if a function is not a method of an object, this is
    undefined.
 
    Method Context:
-   When used inside a method (a function that is a property of an object), 
+   When used inside a method (a function that is a property of an object),
    this refers to the object that the method is called on.
 
    Event Handlers:
@@ -509,7 +519,7 @@ console.log(myTotalScore);
 
 // const userProperties = {
 //    sayMyName: function (roll, rank) {
-//       console.log(`my Name is ${this.myName} 
+//       console.log(`my Name is ${this.myName}
 //       and age is ${this.myAge}, Roll is ${roll} ${rank}`);
 //    }
 // }
@@ -526,26 +536,26 @@ console.log(myTotalScore);
 
 /**
  * The call() method calls the function directly and sets this to the
- *  first argument passed to the call method and if any other sequences of 
- * arguments preceding the first argument are passed to the call method then 
+ *  first argument passed to the call method and if any other sequences of
+ * arguments preceding the first argument are passed to the call method then
  * they are passed as an argument to the function.
  */
 // userProperties.sayMyName.call(user1, 1, 'Gen');
 // userProperties.sayMyName.call(user2, 5, 'Maj');
 
 /**
- * The apply() method calls the function directly and sets this to the first 
- * argument passed to the apply method and if any other arguments provided as an 
+ * The apply() method calls the function directly and sets this to the first
+ * argument passed to the apply method and if any other arguments provided as an
  * array are passed to the call method then they are passed as an argument to the function.
  */
 // userProperties.sayMyName.apply(user1, [1, 'Gen']);
 // userProperties.sayMyName.apply(user2, [5, 'Maj']);
 /**
- * 
- * The bind() method creates a new function and when that new function is called it 
- * set this keyword to the first argument which is passed to the bind method, 
- * and if any other sequences of arguments preceding the first argument are 
- * passed to the bind method then they are passed as an argument to the new function 
+ *
+ * The bind() method creates a new function and when that new function is called it
+ * set this keyword to the first argument which is passed to the bind method,
+ * and if any other sequences of arguments preceding the first argument are
+ * passed to the bind method then they are passed as an argument to the new function
  * when the new function is called.
  */
 // userProperties.sayMyName.bind(user1, 1, 'Gen')()
@@ -553,17 +563,52 @@ console.log(myTotalScore);
 
 // returnedValue();
 
+// -------------------------------------------------------------------
+// DAY:5 - 27 Jan 2024
+// -------------------------------------------------------------------
+
 /**
  * Closure
- * 
+ *
  */
-function outerFunction() {
-   let myName = 'A';
-   return function innerFunction() {
-      console.log("This is test");
-   }
 
+// function outerFunction() {
+//    let counter = 0;
+//    console.log(`Initial Counter value is ${counter}`);
+//    // return 'India';
+//    return function innerFunction(incrementBy) {
+//       // counter++;
+//       counter = counter + incrementBy;
+//       return counter;
+//    }
+
+// }
+// // debugger;
+// const innerFn = outerFunction();
+// console.log(innerFn);
+// console.log(innerFn(2));
+// console.log(innerFn(3));
+
+// DOM
+
+// const containerVal = document.getElementById('container');
+// containerVal.innerText = 'This is new stuff.'
+// // console.log(containerVal.innerText)
+// // containerVal.style.color = 'red';
+// containerVal.style.background = 'yellow';
+// containerVal.style.padding = '10px';
+// containerVal.classList.add('color-red');
+
+// const newEl = document.createElement('span');
+// newEl.innerText = 'This is span';
+// containerVal.appendChild(newEl);
+// containerVal.remove()
+
+// function eventCalled() {
+//    console.log('triggered');
+// }
+
+// form access
+function someFunc() {
+   console.log(document.forms['demoForm']['gender'].value);
 }
-const innerFn = outerFunction()
-innerFn();
-// console.log(outerFunction())

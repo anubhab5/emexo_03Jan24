@@ -137,17 +137,18 @@
 
 ---
 
-26 Jan 2024
+27 Jan 2024
 
 1. Closure
-2. Date
-3. DOM manipulation
-4. Events in JS
-5. Form handling
-6. Error Handling
+2. DOM manipulation
+3. Events in JS
+4. Form handling
 
 ---
 
+1. Date
+2. Error Handling
+
 # Angular
 
-27 Jan 2024
+28 Jan 2024

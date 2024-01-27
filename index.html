@@ -6,11 +6,75 @@
     <!-- <script>
       console.log("our country is India");
     </script> -->
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./app.css" />
     <!-- External Script -->
-    <script src="./script/app.js"></script>
+    <script src="./script/app.js" defer></script>
   </head>
+
   <body>
     <!-- Here this points to the element itself. -->
     <!-- <input type="button" value="Submit" onclick="console.log(this)" /> -->
+    <!-- END: Here this points to the element itself. -->
+
+    <!-- DOM Manipulation using JS -->
+
+    <!-- <div id="container">this is div tag</div> -->
+
+    <!-- <input
+      type="button"
+      value="Submit"
+      ondblclick="eventCalled()"
+      onclick="eventCalled()"
+    /> -->
+
+    <!-- <div
+      style="background: red; height: 100px; width: 100px"
+      onmouseenter="eventCalled()"
+      onmouseout="eventCalled()"
+      onmousemove="eventCalled()"
+    ></div> -->
+
+    <!-- <p id="container"></p> -->
+
+    <!-- <div id="container" class="my-class"></div> -->
+    <!-- <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> -->
+
+    <!-- form -->
+    <form name="demoForm">
+      <label>First Name</label>
+      <input type="text" name="fName" id="" />
+      <br />
+      <label>Last Name</label>
+      <input type="text" name="lName" id="" />
+      <br />
+      <input type="radio" name="gender" id="" value="1" /> Male
+      <input type="radio" name="gender" id="" value="2" /> Female
+      <input type="radio" name="gender" id="" value="3" /> Other
+      <br />
+      <select name="language" id="">
+        <option value="english">English</option>
+        <option value="kannada">Kannada</option>
+        <option value="tamil">Tamil</option>
+        <option value="hindi">Hindi</option>
+        <option value="bengali">Bengali</option>
+      </select>
+      <br />
+      <input type="checkbox" name="idProof" id="" value="1" /> Aadhar
+      <input type="checkbox" name="idProof" id="" value="2" /> Passport
+      <input type="checkbox" name="idProof" id="" value="3" /> DL
+
+      <br />
+      Fav Color:
+
+      <input type="color" name="myColor" id="" />
+      <br />
+      <input type="button" onclick="someFunc()" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
   </body>
 </html>
