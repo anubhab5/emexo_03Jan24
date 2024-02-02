@@ -140,15 +140,23 @@
 27 Jan 2024
 
 1. Closure
-2. DOM manipulation
+2. DOM manipulation :: Accessing element, adding style, adding class, appending new element, removing element
 3. Events in JS
 4. Form handling
 
 ---
 
-1. Date
-2. Error Handling
-
-# Angular
-
 28 Jan 2024
+
+1. Adding event listener programmatically
+2. Date Object in JS
+3. Error Handling in JS
+
+# TypeScript
+
+1. Basics of Typescript
+2. Class
+3. data types in TS
+4. Decorator in TS
+
+https://www.typescriptlang.org/play

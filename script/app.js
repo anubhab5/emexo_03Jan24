@@ -591,13 +591,17 @@ console.log(myTotalScore);
 
 // DOM
 
-// const containerVal = document.getElementById('container');
-// containerVal.innerText = 'This is new stuff.'
-// // console.log(containerVal.innerText)
-// // containerVal.style.color = 'red';
-// containerVal.style.background = 'yellow';
-// containerVal.style.padding = '10px';
-// containerVal.classList.add('color-red');
+const containerVal = document.getElementById('container');
+containerVal.innerText = 'This is new stuff.'
+// console.log(containerVal.innerText)
+// containerVal.style.color = 'red';
+containerVal.style.background = 'yellow';
+containerVal.style.padding = '10px';
+
+// containerVal.addEventListener('click', function () {
+//    console.log("clicked");
+//    containerVal.classList.add('color-red');
+// });
 
 // const newEl = document.createElement('span');
 // newEl.innerText = 'This is span';
@@ -609,6 +613,40 @@ console.log(myTotalScore);
 // }
 
 // form access
-function someFunc() {
-   console.log(document.forms['demoForm']['gender'].value);
-}
+// function someFunc() {
+//    const firstName = document.forms['demoForm']['fName'].value;
+//    const lastName = document.forms['demoForm']['lName'].value;
+//    const gender = document.forms['demoForm']['gender'].value;
+//    const language = document.forms['demoForm']['language'].value;
+//    const idProof = document.forms['demoForm']['idProof'].value;
+//    const favColor = document.forms['demoForm']['myColor'].value;
+//    debugger;
+// }
+
+/**
+ * Date object
+ */
+// let dat = new Date();
+// console.log(dat.getDate());
+// console.log(dat.getMonth());
+// console.log(dat.getFullYear());
+// console.log(dat.setFullYear(2050));
+// console.log(dat.getFullYear());
+
+
+/**
+ * 
+ */
+const num1 = 5;
+const num2 = 0;
+// try {
+//    if (num2 === 0) {
+//       throw new Error('Divison by 0');
+//    }
+//    console.log('something')
+// } catch (err) {
+//    console.log(err);
+// } finally {
+//    console.log('In finally');
+// }
+
