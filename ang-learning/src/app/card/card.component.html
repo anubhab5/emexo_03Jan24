@@ -1,1 +1,14 @@
-<h2>This is card heading</h2>
+<h2>{{ cardData.header }}</h2>
+
+<h4
+  [ngStyle]="{
+    color: cardData.isShown === true ? 'green' : 'red',
+    'background-color': cardData.isShown === true ? 'yellow' : 'orange'
+  }"
+>
+  {{ cardData.isShown }}
+</h4>
+
+<!-- Ternary Operator -->
+<!-- cardData.isShown === true ? 'green' : 'red' -->
+<!-- {{ cardHeader }} -- {{ cardBody }} -->

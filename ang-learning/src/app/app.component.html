@@ -1,7 +1,6 @@
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
+<!-- <app-card></app-card> -->
+
+<div *ngFor="let item of arr">
+  <!-- <app-card *ngIf="item.isShown == true" [cardData]="item"></app-card> -->
+  <app-card [cardData]="item"></app-card>
+</div>

@@ -191,3 +191,8 @@ class User {
     let danyUser = new User("dany", "pass");
     console.log(danyUser);
     console.log(danyUser.errors);
+
+
+    [ngClass]="{'my_class': step === 'step1'}"
+
+<div [ngStyle]="{'background-color':person.country === 'UK' ? 'green' : 'red' }"></<div>

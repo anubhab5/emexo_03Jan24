@@ -172,24 +172,31 @@ https://www.typescriptlang.org/play
 
 ---
 
-03 Feb 2024
+05 Feb 2024
 
 1. \*ngFor
 2. \*ngIf
 3. @Input
-4. ngClass, ngStyle
-5. @Output decorator
-6. Service
-7. Dependency Injection
-8. Built In Pipes
-9. Module basic structure
-10. Creating custom pipe
-11. Creating custom directive
-12. http request (RxJs)
-13. Routing in angular
-14. Setting up the route
-15. navigation using routing
-16. Passing parameters
-17. Retrieving the parameter from the route
-18. Forms, Form validation
-19. ngOnInit, ngOnChanges, ngOnDestroy
+4. ngStyle
+
+---
+
+07 Feb 2024
+
+1. ngClass
+2. Events in angular - click change
+3. @Output decorator
+4. Service
+5. Dependency Injection
+6. Built In Pipes
+7. Module basic structure
+8. Creating custom pipe
+9. Creating custom directive
+10. http request (RxJs)
+11. Routing in angular
+12. Setting up the route
+13. navigation using routing
+14. Passing parameters
+15. Retrieving the parameter from the route
+16. Forms, Form validation
+17. ngOnInit, ngOnChanges, ngOnDestroy
