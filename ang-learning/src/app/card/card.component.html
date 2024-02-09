@@ -1,14 +1,20 @@
 <h2>{{ cardData.header }}</h2>
 
 <h4
-  [ngStyle]="{
-    color: cardData.isShown === true ? 'green' : 'red',
-    'background-color': cardData.isShown === true ? 'yellow' : 'orange'
+  [ngClass]="{
+    'test-class': cardData.isShown === true,
+    'new-css': cardData.isShown === false
   }"
 >
   {{ cardData.isShown }}
 </h4>
 
+<input type="button" value="Click" (click)="submitClicked()" />
+
+<input type="text" name="" id="" (input)="changeDone($event)" />
+
 <!-- Ternary Operator -->
 <!-- cardData.isShown === true ? 'green' : 'red' -->
 <!-- {{ cardHeader }} -- {{ cardBody }} -->
+
+<!-- [ngClass]="{'my_class': step === 'step1'}" -->

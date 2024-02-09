@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -13,6 +13,12 @@ export class CardComponent {
     isShown: boolean;
   };
 
+  @Input()
+  myDemo: string = '';
+
+  // @Output()
+  myEvent = new EventEmitter();
+
   cardBody = 'This is a long string';
 
   constructor() {
@@ -20,5 +26,15 @@ export class CardComponent {
     //   header: '',
     //   subHeader: 'string',
     // };
+  }
+
+  submitClicked() {
+    console.log('Submit clicked');
+  }
+
+  changeDone(data: any) {
+    console.log(data.target.value);
+
+    this.myEvent.emit();
   }
 }

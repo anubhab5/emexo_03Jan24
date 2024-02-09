@@ -11,6 +11,8 @@ export class AppComponent {
    */
   studentName = 'Ajay';
 
+  gender = 'female';
+
   arr = [
     {
       header: ' One',
