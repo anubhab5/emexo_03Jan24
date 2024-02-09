@@ -185,22 +185,23 @@ https://www.typescriptlang.org/play
 
 1. Recap of previous session
 2. ngClass
+3. Events in angular - click change
+4. Creating a custom event
 
 ---
 
-1. Events in angular - click change
-2. @Output decorator
-3. Service
-4. Dependency Injection
-5. Built In Pipes
-6. Module basic structure
-7. Creating custom pipe
-8. Creating custom directive
-9. http request (RxJs)
-10. Routing in angular
-11. Setting up the route
-12. navigation using routing
-13. Passing parameters
-14. Retrieving the parameter from the route
-15. Forms, Form validation
-16. ngOnInit, ngOnChanges, ngOnDestroy
+1. @Output decorator
+2. Service
+3. Dependency Injection
+4. Built In Pipes
+5. Module basic structure
+6. Creating custom pipe
+7. Creating custom directive
+8. http request (RxJs)
+9. Routing in angular
+10. Setting up the route
+11. navigation using routing
+12. Passing parameters
+13. Retrieving the parameter from the route
+14. Forms, Form validation
+15. ngOnInit, ngOnChanges, ngOnDestroy
