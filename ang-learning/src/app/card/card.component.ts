@@ -16,7 +16,7 @@ export class CardComponent {
   @Input()
   myDemo: string = '';
 
-  // @Output()
+  @Output()
   myEvent = new EventEmitter();
 
   cardBody = 'This is a long string';
@@ -30,6 +30,7 @@ export class CardComponent {
 
   submitClicked() {
     console.log('Submit clicked');
+    this.myEvent.emit('test data');
   }
 
   changeDone(data: any) {

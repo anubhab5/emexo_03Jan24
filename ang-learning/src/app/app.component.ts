@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DemoSvcService } from './demo-svc.service';
+import { DemoSvc2Service } from './demo-svc2.service';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,11 @@ export class AppComponent {
   /**
    *
    */
-  studentName = 'Ajay';
+  studentName = 'MY NAME IS AJAY';
+
+  currentDate = new Date();
+
+  priceOfBook = 20;
 
   gender = 'female';
 
@@ -30,4 +36,17 @@ export class AppComponent {
       isShown: true,
     },
   ];
+
+  constructor(svc: DemoSvcService, svc2: DemoSvc2Service) {
+    // const svc = new DemoSvcService();
+    const myName = svc.getMyName();
+
+    console.log(myName);
+  }
+
+  customEventListener(data: string) {
+    console.log(`in parent component ${data}`);
+  }
+
+  serviceDemo() {}
 }

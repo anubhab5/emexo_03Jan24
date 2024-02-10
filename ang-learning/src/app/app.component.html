@@ -1,6 +1,9 @@
 <!-- <app-card></app-card> -->
-
-<div *ngFor="let item of arr">
-  <app-card [cardData]="item"></app-card>
-  <!-- <app-card [cardData]="item" [myDemo]="item.header"></app-card> -->
-</div>
+{{ priceOfBook | currency : "sanjay" }}
+<!-- <div *ngFor="let item of arr">
+  <app-card
+    (myEvent)="customEventListener($event)"
+    [cardData]="item"
+  ></app-card>
+</div> -->
+<!-- <app-card [cardData]="item" [myDemo]="item.header"></app-card> -->
