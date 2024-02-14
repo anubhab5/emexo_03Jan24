@@ -200,20 +200,20 @@ https://www.typescriptlang.org/play
 
 ---
 
-12 Feb 2024
+14 Feb 2024
 
 1. Creating custom pipe
 2. Creating custom directive
 3. http request (RxJs)
 4. Routing in angular
-5. Setting up the route
 
 ---
 
-14 Feb 2024
+16 Feb 2024
 
-1. navigation using routing
-2. Passing parameters
-3. Retrieving the parameter from the route
-4. Forms, Form validation
-5. ngOnInit, ngOnChanges, ngOnDestroy
+1. Setting up the route
+2. navigation using routing
+3. Passing parameters
+4. Retrieving the parameter from the route
+5. Forms, Form validation
+6. ngOnInit, ngOnChanges, ngOnDestroy

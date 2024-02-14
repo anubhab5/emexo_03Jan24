@@ -15,7 +15,7 @@ export class AppComponent {
 
   currentDate = new Date();
 
-  priceOfBook = 20;
+  priceOfBook = 25;
 
   gender = 'female';
 

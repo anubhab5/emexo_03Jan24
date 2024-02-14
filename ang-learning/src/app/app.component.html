@@ -1,5 +1,11 @@
 <!-- <app-card></app-card> -->
-{{ priceOfBook | currency : "sanjay" }}
+<!-- {{ priceOfBook | currency }} -->
+
+<span highlighter>
+  {{ priceOfBook | discount : 10 | currency : "INR" }}
+</span>
+
+{{ priceOfBook | discount : 20 | currency }}
 <!-- <div *ngFor="let item of arr">
   <app-card
     (myEvent)="customEventListener($event)"
