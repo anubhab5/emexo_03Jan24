@@ -1,0 +1,9 @@
+<div class="container mt-4">
+  <div class="row">
+    <app-card
+      class="col-md-3 mb-2"
+      *ngFor="let product of productList"
+      [product]="product"
+    ></app-card>
+  </div>
+</div>

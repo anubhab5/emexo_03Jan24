@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { DemoSvcService } from './demo-svc.service';
-import { DemoSvc2Service } from './demo-svc2.service';
 
 @Component({
   selector: 'app-root',
@@ -37,12 +35,7 @@ export class AppComponent {
     },
   ];
 
-  constructor(svc: DemoSvcService, svc2: DemoSvc2Service) {
-    // const svc = new DemoSvcService();
-    const myName = svc.getMyName();
-
-    console.log(myName);
-  }
+  constructor() {}
 
   customEventListener(data: string) {
     console.log(`in parent component ${data}`);

@@ -1,0 +1,12 @@
+img {
+  border: solid 2px black;
+}
+
+.style-me {
+  font-style: italic;
+}
+
+.style-me::first-letter {
+  color: tomato;
+  font-size: 1.4rem;
+}

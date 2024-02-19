@@ -1,4 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from '../products/Product';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -7,21 +9,14 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class CardComponent {
   @Input()
-  cardData!: {
-    header: string;
-    subHeader: string;
-    isShown: boolean;
-  };
-
-  @Input()
-  myDemo: string = '';
+  product!: Product;
 
   @Output()
   myEvent = new EventEmitter();
 
   cardBody = 'This is a long string';
 
-  constructor() {
+  constructor(private route: Router) {
     // this.cardHeader = {
     //   header: '',
     //   subHeader: 'string',
@@ -37,5 +32,10 @@ export class CardComponent {
     console.log(data.target.value);
 
     this.myEvent.emit();
+  }
+
+  navigate(prod: Product) {
+    this.route.navigate([`product/${prod.id}`]);
+    // this.route.navigate([`about-us`]);
   }
 }

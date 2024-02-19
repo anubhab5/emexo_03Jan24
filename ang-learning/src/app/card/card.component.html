@@ -1,4 +1,4 @@
-<h2>{{ cardData.header }}</h2>
+<!-- <h2>{{ cardData.header }}</h2>
 
 <h4
   [ngClass]="{
@@ -11,10 +11,24 @@
 
 <input type="button" value="Click" (click)="submitClicked()" />
 
-<input type="text" name="" id="" (input)="changeDone($event)" />
+<input type="text" name="" id="" (input)="changeDone($event)" /> -->
 
 <!-- Ternary Operator -->
 <!-- cardData.isShown === true ? 'green' : 'red' -->
 <!-- {{ cardHeader }} -- {{ cardBody }} -->
 
 <!-- [ngClass]="{'my_class': step === 'step1'}" -->
+
+<div class="card" style="width: 18rem; min-height: 30rem">
+  <img class="card-img-top" [src]="product.images[0]" alt="Card image cap" />
+  <div class="card-body">
+    <h5 class="card-title">
+      {{ product.title }}
+      <span>{{ product.price | currency : "INR" }}</span>
+    </h5>
+    <p class="card-text">
+      {{ product.description | truncate : [25, "..."] }}
+    </p>
+    <a (click)="navigate(product)" class="btn btn-primary">Lets Go</a>
+  </div>
+</div>

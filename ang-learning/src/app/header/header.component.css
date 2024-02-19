@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: unset;
+}
+
+ul > li {
+  list-style: none;
+  margin-right: 12px;
+  color: white;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.active {
+  color: #cdd2e2 !important;
+  text-decoration: underline;
+}
